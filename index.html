@@ -1,28 +1,182 @@
 <!DOCTYPE html><html lang=en>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZSmYKoZv_DE-L2RyVALG3hYOffqSJszAKGQvOS4X9RoLNp8TS2zb8lQhFMfqTSj0bZsHo_tJs5yNlFv7iWTN-YT88LLV_y1UV8Ka9REE0gho6qAqOl3HVrDgw89QIxDz0KROdtOXMzcQHAHNsjB0pe2qrUrP3CdpI30oFy91FbBH_K4Nv5DF7hYKBNbvfslIJ1rrsZtsmml_ooMZM31Hn7tUdxdbludboQuSGWMaT-bJ4DTfNFYTaPfB6RxzvJUXx38ahacjk15Ew0JSBDiWxtxB6vO1vPWU8AJmazndJgpK7myCY15Phw3A3lj7qdWj0Tp7Ja7H-XoiohiES17cKXUqr0jMeg6dpDZE65Pi-ppPztggJSVaPHulXs9cS5nEDlWZLnYO9fUhviB2RSCE6JCdT4npn3bmQsdDQdE18Sv7WWVyG8VPxXFbh4vuyXF7Mj8U-am2oB9Zq5jEiXnTX3cahW2kkmb3NDXR9kJaWY_F9PHkO8phyfVw8iqRLL_zvf6xWE1lHPjhv9J270nMOyEMJyCc-Y9RA-pIHc6IFBMMyhhAY9zj6G1WW0BvC6nQ9MU65H41W2baMFkCoaTrykjuvLK1khpqIil8iGll2mR9vxKTQQCE9w5yzUMzXzgYG49q-2GeQ4PUEApZHLdwKPLC4vfuXweMHr7h-P7y-xvdK3XCmauHAv16VOJWuGKtNvuNF7JQkSx7VcwU0BOcPE1qif5bZaToIKohDLeAyOrLbSmHDTCyKNLEoqUf0Bfi_gUV8A79M3pueIyA6yFtEElM9tIPW-xGzAxePnVO6bTcegcJzPjDSTyE5ST7hX0540aQJ87pdJ2BBE231meR25vZ1WU77fJq4wmUeV0II_k2Zk9aJbHzDFnPv5Uzj6zFfbyGjHGPOhnZ8lb5AbkBx1m1DiTuL9zp_pb_Rfuh_Zkt1rNz7iTETfCykHb3bAHQhXN8Huz59v_3KhIxedxsuXK7Npk3fmUPhGBQ-J1h9_GTekhOQJczdqLQZBV14j6uEyhNDgcS5GGK5BY8h1cwlpLms6rkyKirPTfCuZGnK3XgOi2ytVqAJ-EKJThdxOGc49Uj94zY_DkR1Pcayijdig-LrWizmXM20qDrR6Y2etPiFdxXAn5C73YCCYfLk0mX1HZEa2-QbTQniR-pktpMvDgqC016jiAnAmn22VkY9D74fJhs1hRw8UELwbMlHGFnqdShc1Oggw9V-n2TcEFqYg" nonce="97d73e1b2d7b8d5a758df41bab772052" charset="UTF-8"></script>
     <head>
         <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
         <meta name="theme-color" content="#000000">
         <title>CEO.COM</title>
         <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
     </head>
     <body>
         <style>
-            body { text-align: center; padding: 150px; }
-            h1 { font-size: 50px; }
-            body { font: 20px Helvetica, sans-serif; color: #333; }
+            .mantenimiento { text-align: center; padding: 150px; }
+            .title-mantenimiento { font-size: 50px; }
+            .mantenimiento { font: 20px Helvetica, sans-serif; color: #333; }
             article { display: block; text-align: center; width: 650px; margin: 0 auto; }
             a { color: #dc8100; text-decoration: none; }
             a:hover { color: #333; text-decoration: none; }
+
+            .chatbot {
+            height:520px;
+            width:430px;
+            position: fixed;
+            bottom: 0px;
+            right: 20px;
+            border: 2px solid #0078d7;
+            display: none;
+            background-color: #0078d7; 
+        }
+        .etiqueta {
+            height:30px;
+            width:430px;
+            position: fixed;
+            bottom: 0px;
+            right: 20px;
+            border: 2px solid #0078d7;       
+        }
+        .webchat {
+            height:480px;
+            width:430px;
+            position: fixed;
+            bottom: 0px;
+            right: 20px;
+            border: 2px solid #0078d7;     
+        }
+        .chatheader {
+            background-color: #0078d7;
+            font-family: "Segoe UI", sans-serif;
+            box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+            box-sizing: content-box;
+            color: #ffffff;
+            font-weight: 500;
+            height: 30px;
+            left: 0;
+            letter-spacing: 0.5px;
+            padding: 8px 8px 0 8px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 1;
+        }
+        .plain{
+            background-color: #0078d7;
+            color: #ffffff;
+            font-family: 'Raleway', sans-serif;
+            font-size: 15px;
+        }
+        .markdown{
+            font-family: 'Raleway', sans-serif;
+            font-size: 15px;
+        }
+        .css-16qahhi{
+            font-family: 'Raleway', sans-serif;
+            font-size: 15px;
+        }
+        .ac-textBlock{
+            font-family: 'Raleway', sans-serif !important;
+            font-size: 15px !important;
+        }
+        .ac-pushButton{
+            font-family: 'Raleway', sans-serif;
+            font-size: 13px;
+        }
+        .openchat {
+            background-color: #0078d7;
+            font-family: "Segoe UI", sans-serif;
+            box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+            box-sizing: content-box;
+            color: #ffffff;
+            font-weight: 500;
+            height: 30px;
+            left: 0;
+            letter-spacing: 0.5px;
+            padding: 8px 8px 0 8px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 1;
+        }
+        .ac-image{
+            width: 80% !important;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .ac-container{
+            text-align: center !important; 
+            display: block !important;
+        }
+        .ac-container ul li {
+            padding: -1px;
+        }
         </style>
-        <article>
-            <a href='https://www.freepik.es/vectores/ordenador' target="_blank">
-                <img src="https://img.freepik.com/vector-gratis/soporte-tecnico-calibracion-sistema-configuracion-software-ajustes-configuracion-servicio-mantenimiento-informatico-profesional-ilustracion-concepto-ocupacion-tecnico_335657-2051.jpg?size=338&ext=jpg&ga=GA1.2.1057194397.1612400893" alt="Vector de Ordenador creado por vectorjuice - www.freepik.es">
-            </a>
-            <h1>Página en mantenimiento</h1>
-            <div>
-                <p>Disculpa por el incoveniente, actualmente estamos dando mantenimiento a nuestra página, pronto estará disponible para que conozcas nuestros servicios!</p>
-                <p>&mdash; Equipo de CEO.COM</p>
+        <div class="mantenimiento">
+            <article>
+                <a href='https://www.freepik.es/vectores/ordenador' target="_blank">
+                    <img src="https://img.freepik.com/vector-gratis/soporte-tecnico-calibracion-sistema-configuracion-software-ajustes-configuracion-servicio-mantenimiento-informatico-profesional-ilustracion-concepto-ocupacion-tecnico_335657-2051.jpg?size=338&ext=jpg&ga=GA1.2.1057194397.1612400893" alt="Vector de Ordenador creado por vectorjuice - www.freepik.es">
+                </a>
+                <h1 class="title-mantenimiento">Página en mantenimiento</h1>
+                <div>
+                    <p>Disculpa por el incoveniente, actualmente estamos dando mantenimiento a nuestra página, pronto estará disponible para que conozcas nuestros servicios!</p>
+                    <p>&mdash; Equipo de CEO.COM</p>
+                </div>
+            </article>
+        </div>
+        <div class="chatbot" id="chatbot">
+            <a id="closechat" href="#" onclick="myFunction()" style="position: fixed; bottom: 494px; right: 35px; z-index: 99999; color: #ffffff; background-color: #0078d7; font-family: 'Raleway', sans-serif;
+            font-size: 15px !important;">X</a>
+            <div class="chatheader" id="chatheader">
+                <span>DEMO SENASA</span>                
             </div>
-        </article>
+            <div class="webchat" id="webchat" role="main">
+            </div>
+        </div>
+        <div class="etiqueta" id="etiqueta">
+            <div class="openchat" id="openchat">
+                <a id="closechat" href="#" onclick="AbrirChat()" style="position: fixed; right: 35px; z-index: 99999; color: #ffffff; background-color: #0078d7; font-family: 'Raleway', sans-serif;
+            font-size: 15px !important;">Abrir chat de preguntas frecuentes</a>
+            </div>
+        </div>
+        
+    
+        <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+        <script>
+            function myFunction() {
+                document.getElementById("chatbot").style.display = "none";
+                document.getElementById("etiqueta").style.display = "block";
+            }
+    
+            function AbrirChat() {
+                document.getElementById("etiqueta").style.display = "none";
+                document.getElementById("chatbot").style.display = "block";
+                // Get welcome message
+                // We are using a customized store to add hooks to connect event
+                const store = window.WebChat.createStore({}, ({ dispatch }) => next => action => {
+                    //console.log(action);
+                    if (action.type === 'DIRECT_LINE/CONNECT_FULFILLED') {
+                        dispatch({
+                            type: 'WEB_CHAT/SEND_EVENT',
+                            payload: {
+                                name: 'webchat/join',
+                                value: { language: window.navigator.language }
+                            }
+                        });
+                    }
+    
+                    return next(action);
+                });
+                
+                window.WebChat.renderWebChat(
+                    {
+                    directLine: window.WebChat.createDirectLine({
+                        token: 'fZFh9AMx3bY.6trPx5oBfS9awk1mtbJyURwdLxLKC3y0uAom2dq8umg'
+                    }),
+                    store,
+                    },
+                    document.getElementById('webchat')
+                );
+            }
+    
+        </script>
     </body>
 </html>
